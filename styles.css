@@ -1,0 +1,146 @@
+body {
+  font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 2;
+}
+
+p::first-letter{
+	font-size: 100%;
+}
+
+a:hover {
+	background-color: #cff3ff;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-header {
+	color: white;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.title {
+	text-align: center;
+	background-color: aliceblue;
+	height: 50px;
+	margin-top: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.video-container{
+ overflow: hidden;
+ box-sizing: border-box;
+}
+
+.video-container iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+.video-component-left {
+	min-width: 50%;
+	float: left;
+}
+
+.video-component-right {
+	min-width: 50%;
+	overflow: hidden;
+}
+
+.caption-container{
+ overflow: hidden;
+ box-sizing: border-box;
+}
+
+.caption-left {
+	text-align: center;
+	min-width: 50%;
+	max-width: 50%;
+	float: left;
+}
+
+.caption-right {
+	text-align: center;
+	min-width: 50%;
+	max-width: 50%;
+	float: right;
+}
+
+.table-image-container a {
+	text-align: center;
+ 	border-style: solid;
+	float: left;
+	width: 32%;
+}
+
+.image-table {
+	width: 32%
+}
+
+.caption-image-table {
+	max-width: 32%;
+	float: right;
+}
+
+.caption-image-container p {
+	text-align: center;
+	float: left;
+	height: 20px;
+	width: 33.3%;
+}
+
+.page {
+	display: inline-block;
+	width: 100%;
+}
+
+.car-image {
+	float: left;
+	max-width: 50%;
+	min-width: 50%;
+}
+
+#ferrari-caption p {
+	text-align: center;
+}
+
+#map{
+	float: left;
+}
+
+.resume-section {
+	text-decoration: underline;
+}
